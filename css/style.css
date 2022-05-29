@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Koulen', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 310px;
+    border-radius: 20px;
+    padding: 15px 15px 5px 15px
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 146, 219);
+    height: 350px;
+    width: 310px;
+    border-radius: 10px;
+    margin-bottom: 10x;
+}
+
+.box1 svg {
+    color: white;
+    height: 300px;
+    width: 300px;
+}
+.box2 {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box2 h2 {
+    text-align: center;
+    line-height: 130%;
+    margin: 5px;
+}
+
+.box2 p {
+    color: grey;
+    text-align: center;
+    line-height: 130%;
+    padding: 5px;
+}
+
+.send {
+    background-color:rgb(82, 146, 219);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    padding: 0.3rem 2rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
